@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Chamsdine Niang</title>
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-links">
+            <div class="nav-indicator"></div>
+            <a href="#accueil" class="nav-link active">
+                <i data-lucide="home"></i> Accueil
+            </a>
+            <a href="#apropos" class="nav-link">
+                <i data-lucide="user"></i> À propos
+            </a>
+            <a href="#competences" class="nav-link">
+                <i data-lucide="code"></i> Compétences
+            </a>
+            <a href="#parcours" class="nav-link">
+                <i data-lucide="graduation-cap"></i> Parcours
+            </a>
+            <a href="#projets" class="nav-link">
+                <i data-lucide="folder-git-2"></i> Projets
+            </a>
+            <a href="#certifications" class="nav-link">
+                <i data-lucide="award"></i> Certifications
+            </a>
+            <a href="#contact" class="nav-link">
+                <i data-lucide="mail"></i> Contact
+            </a>
+            <div class="separator"></div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i data-lucide="moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="section hero">
+            <div class="container hero-content">
+                <img src="photo.png" alt="Chamsdine Niang" class="hero-img">
+                <h1 class="hero-title">Chamsdine <span>Niang</span></h1>
+                <p class="hero-subtitle">Étudiant en BTS SIO option SLAM</p>
+                <a href="#" class="btn-primary">Télécharger mon CV</a>
+            </div>
+        </section>
+
+        <section id="apropos" class="section">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                <p>Étudiant en BTS SIO, titulaire d'un Baccalauréat STMG Systèmes d'Information. Rigoureux et motivé, je souhaite mettre à profit mon sens de l'analyse et mon expérience terrain au service de projets alliant technologie et gestion d'entreprise.</p>
+            </div>
+        </section>
+
+        <section id="competences" class="section">
+            <div class="container">
+                <h2>Mes Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i data-lucide="terminal"></i> Langages & Web</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">JavaScript (notions)</span>
+                            <span class="skill-tag">Java (notions)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i data-lucide="server"></i> Systèmes & Réseaux</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Windows</span>
+                            <span class="skill-tag">Installation OS</span>
+                            <span class="skill-tag">Maintenance matérielle</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i data-lucide="file-text"></i> Bureautique</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pack Office</span>
+                            <span class="skill-tag">Rédaction professionnelle</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i data-lucide="languages"></i> Langues</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Italien (Bilingue)</span>
+                            <span class="skill-tag">Anglais (B2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="parcours" class="section">
+            <div class="container">
+                <h2>Expériences Professionnelles</h2>
+                <div class="timeline">
+                    <!-- IT Experiences -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Janvier 2025 – Février 2026</span>
+                            <h3 class="timeline-title">Développeur Web</h3>
+                            <span class="timeline-company">Les Petits Soldats du Bonheur</span>
+                            <ul class="timeline-list">
+                                <li>Analyse des besoins et refonte du site web de l'association</li>
+                                <li>Conception et modélisation de la base de données sur Supabase</li>
+                                <li>Développement du module d'administration (Next.js, React, Node.js)</li>
+                                <li>Déploiement et mise en production (Vercel, Netlify)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mai 2025 – Juin 2025</span>
+                            <h3 class="timeline-title">Technicien Informatique Junior</h3>
+                            <span class="timeline-company">Vo DSI & Code Code Codec, Paris</span>
+                            <ul class="timeline-list">
+                                <li>Maintenance et réparation de matériel informatique</li>
+                                <li>Installation et configuration de logiciels et Windows</li>
+                                <li>Animation de cours d’initiation à la programmation pour enfants</li>
+                                <li>Gestion des incidents et suivi des tickets</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Other Experiences -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Juillet 2025 – Août 2025</span>
+                            <h3 class="timeline-title">Employé Libre-Service</h3>
+                            <span class="timeline-company">ADECCO (mission intérim), Puteaux</span>
+                            <ul class="timeline-list">
+                                <li>Mise en rayon et gestion des stocks selon les consignes d’implantation</li>
+                                <li>Contrôle qualité des produits et gestion de la caisse</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Décembre 2024 – Mars 2025</span>
+                            <h3 class="timeline-title">Hôte de Caisse</h3>
+                            <span class="timeline-company">G20, Saint-Ouen</span>
+                            <ul class="timeline-list">
+                                <li>Accueil et conseil clientèle, gestion des transactions financières</li>
+                                <li>Suivi de caisse et participation à la gestion des stocks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Septembre 2024 – Novembre 2024</span>
+                            <h3 class="timeline-title">Hôte d’Accueil Événementiel</h3>
+                            <span class="timeline-company">Mission intérim, Île-de-France</span>
+                            <ul class="timeline-list">
+                                <li>Accueil, information et orientation des visiteurs</li>
+                                <li>Gestion du vestiaire et contrôle des billets d’entrée</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 style="margin-top: 4rem;">Formation</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 – En cours</span>
+                            <h3 class="timeline-title">BTS SIO (Services Informatiques aux Organisations)</h3>
+                            <span class="timeline-company">École Nationale de Commerce Bessières, Paris 17</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 – 2024</span>
+                            <h3 class="timeline-title">Baccalauréat STMG (Spécialité Systèmes d’Information)</h3>
+                            <span class="timeline-company">Lycée Auguste Blanqui, Saint-Ouen</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <p>Contenu projets ici...</p>
+            </div>
+        </section>
+
+        <section id="veilles" class="section">
+            <div class="container">
+                <h2>Veilles Technologiques</h2>
+                <p>Contenu veilles ici...</p>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2>Mes Certifications</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <i data-lucide="shield-check"></i>
+                        <h3 class="card-title">SecNum Academy</h3>
+                        <p>ANSSI - Sécurité des Systèmes d’Information</p>
+                    </div>
+                    <div class="card">
+                        <i data-lucide="lock"></i>
+                        <h3 class="card-title">Atelier RGPD</h3>
+                        <p>CNIL - Protection des données</p>
+                    </div>
+                    <div class="card">
+                        <i data-lucide="globe"></i>
+                        <h3 class="card-title">Cybersécurité</h3>
+                        <p>Cisco Networking Academy (NetAcad)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container" style="text-align: center;">
+                <h2>Me Contacter</h2>
+                <p>N'hésitez pas à me joindre pour toute collaboration ou opportunité.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <span>07 51 58 51 83</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <span>cniang117@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>Saint-Denis, Île-de-France</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lucide Icons Library -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
